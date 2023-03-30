@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "movie_reviews",
+  "info": {
+    "singularName": "movie-review",
+    "pluralName": "movie-reviews",
+    "displayName": "Movie review"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imdbID": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "date": {
+      "type": "date"
+    },
+    "summary": {
+      "type": "richtext"
+    }
+  }
+}
