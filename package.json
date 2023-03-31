@@ -1,8 +1,8 @@
 {
   "name": "strapi",
   "private": true,
-  "version": "0.1.0",
-  "description": "A Strapi application",
+  "version": "0.2.0",
+  "description": "Strapi CMS for joinemm.dev",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -11,21 +11,21 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.5.5",
-    "@strapi/plugin-users-permissions": "4.5.5",
-    "@strapi/provider-upload-cloudinary": "4.5.5",
-    "@strapi/strapi": "4.5.5",
-    "pg": "8.8.0"
+    "@strapi/plugin-i18n": "4.9.0",
+    "@strapi/plugin-users-permissions": "4.9.0",
+    "@strapi/provider-upload-cloudinary": "4.9.0",
+    "@strapi/strapi": "4.9.0",
+    "pg": "8.10.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Joinemm"
   },
   "strapi": {
     "uuid": "35d7a084-3088-4d0b-869e-f503693ee8e5"
   },
   "engines": {
-    "node": ">=16.x.x",
-    "npm": ">=6.0.0"
+    "node": ">=18.x.x",
+    "npm": ">=8.x.x"
   },
   "license": "MIT"
 }
