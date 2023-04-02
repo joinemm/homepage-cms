@@ -4,7 +4,8 @@
   "info": {
     "singularName": "artwork",
     "pluralName": "artworks",
-    "displayName": "Artwork"
+    "displayName": "Artwork",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,20 +16,18 @@
       "type": "string"
     },
     "media": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
-    "description": {
-      "type": "richtext"
-    },
-    "date": {
-      "type": "date"
+    "year": {
+      "type": "integer"
     }
   }
 }
